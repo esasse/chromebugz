@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "ChromeBugz",
+  "description": "Menu de contexto para o FogBugz",
+  "version": "0.2",
+
+  "permissions": [
+  	"contextMenus"
+  ],
+
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+
+  "background": {
+    "scripts": ["chromebugz.js"]
+  },
+
+  "options_page": "options.html"
+}
